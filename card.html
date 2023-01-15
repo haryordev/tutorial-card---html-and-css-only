@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial card</title>
+    <style>
+        body {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+        }
+        .container{
+            background-color: #e1e1e1;
+            padding:10px;
+            width: 250px;
+            border-radius:5px;
+            box-shadow:0 0 3px 3px #cfcfcf;
+            font-family: courier;            
+        }
+        div.content{
+            background-color: white;
+            border:none;
+            border-left:3px solid #4CAF50;
+            padding:2px 8px;
+            margin:10px 0;
+            box-shadow:0 0 3px 3px #cfcfcf;
+            border-radius:0px 5px 5px 0px;
+        }
+        span.crimson{
+            color: crimson;
+            padding:3px;
+        }
+        span.royalblue{
+            color: #333ecf;
+            padding:3px;
+        }
+        .button{
+            padding:7px 12px;
+            background-color: #4CAF50;
+            border:none;
+            color: white;
+            box-shadow:2px 2px 4px #565656;
+        }
+        .button:hover{
+            background-color: white;
+            border:1px solid #4CAF50;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Example</h2>
+        <div class="content">
+            <p><span class="crimson">.loader</span>{<br />
+            <span class="crimson">border-top:</span>
+            <span class="royalblue">16px solid blue;</span><br />
+                        <span class="crimson">border-top:</span>
+                        <span class="royalblue">16px solid blue;</span>
+                        <br />}</p>
+        </div>
+        <button type="button" class="button">Try it your self »</button>
+    </div>
+</body>
+</html>
